@@ -1,8 +1,26 @@
-# JumpLab
+# JumpLab V3
 
-JumpLab is a video-based jump-analysis workflow for CMJ, SJ, and DJ review. It combines video playback, frame-level event marking, estimated performance metrics, and on-device pose overlays to support teaching and coach review.
+JumpLab V3 is a video-based jump-analysis workflow for CMJ, SJ, and DJ review. It combines video playback, frame-level event marking, estimated performance metrics, AI-assisted event suggestions, and on-device pose overlays to support teaching and coach review.
 
-![JumpLab analysis interface](../assets/jumplab/jumplab-interface.png)
+## Demo screenshots
+
+### Countermovement and lowest position
+
+![JumpLab V3 countermovement frame with hip and knee angles](../assets/jumplab/jumplab-crouch.jpg)
+
+The frame-by-frame view overlays estimated body landmarks and displays hip and knee angles to support review of the countermovement position. These are single-camera 2D estimates and require coach interpretation.
+
+### Take-off and flight phase
+
+![JumpLab V3 take-off frame with pose overlay and estimated jump height](../assets/jumplab/jumplab-takeoff.jpg)
+
+The take-off marker and AI-estimated floor-contact line support manual verification of the first fully airborne frame. Flight time and jump height are calculated from the reviewed take-off and landing events.
+
+### Landing review
+
+![JumpLab V3 landing frame with floor contact line and pose overlay](../assets/jumplab/jumplab-landing.jpg)
+
+The landing frame helps the reviewer identify the first renewed floor contact and inspect posture around landing. The event marker remains editable so the user can correct an AI suggestion frame by frame.
 
 ## What it demonstrates
 
@@ -16,7 +34,7 @@ JumpLab is a video-based jump-analysis workflow for CMJ, SJ, and DJ review. It c
 
 ## Project links
 
-- [Live demo](https://jumplab-tehta.web.app/)
+- [Open JumpLab V3 demo](https://jumplab-tehta.web.app/v3)
 - [Source repository](https://github.com/skyfu218/jumplab-motion-analysis)
 
 ## Measurement boundary

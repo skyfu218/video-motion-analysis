@@ -11,13 +11,24 @@ This repository is a visual portfolio and project directory. Each application re
 | [JumpLab](./jumplab/) | Reviews jump video, marks take-off and landing events, and estimates flight time, jump height, and movement landmarks. | Local video, frame-by-frame event review, and on-device pose estimation | Prototype / Coach-support demo |
 | [Air Pistol Motion Analysis](./air-pistol-motion-analysis/) | Visualizes selected-region sway, shooting posture, motion traces, and synchronized 3D review. | ROI tracking and single-camera pose visualization | Prototype / Coach-support demo |
 
-## JumpLab
+## JumpLab V3
 
-[![JumpLab interface](./assets/jumplab/jumplab-interface.png)](./jumplab/)
+Video-based CMJ, SJ, and DJ review with AI-assisted event marking, pose overlays, frame-by-frame controls, and manual verification of take-off and landing events.
 
-Video-based CMJ, SJ, and DJ review with manual verification of suggested event points.
+<table>
+  <tr>
+    <td width="33%"><img src="./assets/jumplab/jumplab-takeoff.jpg" alt="JumpLab V3 take-off frame with pose overlay and estimated jump height"></td>
+    <td width="33%"><img src="./assets/jumplab/jumplab-crouch.jpg" alt="JumpLab V3 countermovement frame with hip and knee angles"></td>
+    <td width="33%"><img src="./assets/jumplab/jumplab-landing.jpg" alt="JumpLab V3 landing frame with floor contact line and pose overlay"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Take-off</strong><br>Flight-time and jump-height estimate</td>
+    <td align="center"><strong>Countermovement</strong><br>Hip and knee angle review</td>
+    <td align="center"><strong>Landing</strong><br>Floor-contact and landing review</td>
+  </tr>
+</table>
 
-[View project details](./jumplab/) · [Open live demo](https://jumplab-tehta.web.app/) · [Source repository](https://github.com/skyfu218/jumplab-motion-analysis)
+[View project details](./jumplab/) · [Open JumpLab V3 demo](https://jumplab-tehta.web.app/v3) · [Source repository](https://github.com/skyfu218/jumplab-motion-analysis)
 
 ## Air Pistol Motion Analysis
 
